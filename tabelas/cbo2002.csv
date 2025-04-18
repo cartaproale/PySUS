@@ -1,0 +1,2 @@
+TABELA,DESCRICAO,FONTE,CAMPOS_IMPORTANTES,FORMATO,OBSERVACOES
+CBO 2002 – Ocupação,Classificação Brasileira de Ocupações – Versão 2002 (ocupações e códigos de profissionais),https://github.com/cartaproale/cbo-csv/raw/refs/heads/main/CBO2002%20-%20Ocupacao.csv,"CBO (código), DESCRICAO (nome da ocupação)","CSV, separado por ponto e vírgula (;), codificação latin1","Usar 'CBO' como chave de mapeamento. Pode ser utilizado para enriquecer bases CNES-PF, SIH e SIA."

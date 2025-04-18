@@ -1,0 +1,2 @@
+TABELA,DESCRICAO,FONTE,CAMPOS_IMPORTANTES,FORMATO,OBSERVACOES
+SIGTAP – Tabela de Procedimentos do SUS,"Procedimentos, medicamentos e materiais especiais utilizados pelo SUS.",https://github.com/rdsilva/SIGTAP/blob/master/tabela-sigtap-201809.csv,"co_procedimento, no_procedimento, co_grupo, co_sub_grupo, valores financeiros","CSV, separado por ponto e vírgula (;), codificação UTF-8-SIG",Arquivo de 2018. Usado para mapear códigos de procedimento em bases como SIA e SIH.
