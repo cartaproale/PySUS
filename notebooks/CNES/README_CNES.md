@@ -5,14 +5,14 @@ Este diretório contém notebooks validados para análise de dados da base **CNE
 
 ## ✅ Tabelas validadas
 
-| Tabela | Descrição                                  | Notebook                          |
-|--------|--------------------------------------------|-----------------------------------|
-| ST     | Estabelecimentos                           | `CNES_ST_Parana_2023_Exploracao.ipynb` |
-| PF     | Profissionais                               | `CNES_PF_Parana_2023_Exploracao.ipynb` |
-| SR     | Serviços                                    | `CNES_SR_Parana_2023_Exploracao.ipynb` |
-| HB     | Habilitações                                | `CNES_HB_Parana_2023_Exploracao.ipynb` |
-| IN     | Incentivos                                  | `CNES_IN_Parana_2023_Exploracao.ipynb` |
-| EP     | Estabelecimento por Procedimento            | `CNES_EP_Parana_2023_Exploracao.ipynb` |
+| Tabela | Descrição                                  | Notebook        |
+|--------|--------------------------------------------|-----------------|
+| ST     | Estabelecimentos                           | `CNES_ST.ipynb` |
+| PF     | Profissionais                              | `CNES_PF.ipynb` |
+| SR     | Serviços                                   | `CNES_SR.ipynb` |
+| HB     | Habilitações                               | `CNES_HB.ipynb` |
+| IN     | Incentivos                                 | `CNES_IN.ipynb` |
+| EP     | Estabelecimento por Procedimento           | `CNES_EP.ipynb` |
 
 ## ℹ️ Observações
 
