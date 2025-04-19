@@ -6,7 +6,7 @@ Este diretório contém notebooks relacionados ao acesso e à exploração dos d
 
 ## Notebook principal
 
-- **`SINASC_DN_PR_2022_Exploracao.ipynb`**
+- **`SINASC_DN.ipynb`**
   - Baixa os dados do grupo `DN` (Declaração de Nascido Vivo) para o estado do Paraná no ano de 2022.
   - Realiza uma análise exploratória dos municípios com maior número de nascimentos.
   - Gera um gráfico com os 10 municípios que registraram mais nascimentos em 2022.
