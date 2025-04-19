@@ -6,7 +6,7 @@ Este diretório contém notebooks relacionados ao acesso e à exploração dos d
 
 ## Notebook principal
 
-- **`SIA_PA_PR_2023_Exploracao_Oficial.ipynb`**
+- **`SIA_PA.ipynb`**
   - Baixa os dados do tipo `PA` (Produção Ambulatorial) para o estado do Paraná em janeiro de 2023.
   - Realiza uma análise exploratória dos procedimentos ambulatoriais realizados (`PA_PROC_ID`).
   - Gera um gráfico com os 10 procedimentos mais registrados.
