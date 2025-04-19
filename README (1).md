@@ -18,19 +18,19 @@ Cada sistema possui uma subpasta dedicada com notebooks de exploração, limpeza
 ```
 cartaproale/PySUS/
 ├── CNES/
-│   ├── CNES_ST_Parana_2022_Exploracao.ipynb
-│   ├── CNES_PF_Parana_2022_Exploracao.ipynb
+│   ├── CNES_ST.ipynb
+│   ├── CNES_PF.ipynb
 │   └── ...
 ├── SIM/
-│   └── SIM_CID10_Parana_2022_Exploracao.ipynb
+│   └── SIM_CID10.ipynb
 ├── SIH/
-│   ├── SIH_RD_Parana_2022_Exploracao.ipynb
-│   ├── SIH_ER_Parana_2022_Exploracao.ipynb
+│   ├── SIH_RD.ipynb
+│   ├── SIH_ER.ipynb
 │   └── ...
 ├── SIA/
-│   └── SIA_PA_Parana_2023_Exploracao.ipynb
+│   └── SIA_PA.ipynb
 ├── SINASC/
-│   └── SINASC_DN_Parana_2022_Exploracao.ipynb
+│   └── SINASC_DN.ipynb
 ├── Referencias/
 │   ├── REFERENCIAS_CBO_tb_ocupacao_Mapeamento_Funcao.ipynb
 │   ├── REFERENCIAS_CID10_Categorias_Mapeamento_Funcao.ipynb
