@@ -22,6 +22,48 @@ Os códigos são compatíveis com o **Google Colab** e visam facilitar o trabalh
 > **Validados** significa que os notebooks baixam dados reais, estão organizados por estado, ano e mês, e executam com sucesso no Google Colab.
 
 ---
+Cada sistema possui uma subpasta dedicada com notebooks de exploração, limpeza e mapeamento de códigos.
+---
+
+## 📁 Estrutura do Repositório
+
+```
+cartaproale/PySUS/
+├── CNES/
+│   ├── CNES_ST.ipynb
+│   ├── CNES_PF.ipynb
+│   └── ...
+├── SIM/
+│   └── SIM_CID10.ipynb
+├── SIH/
+│   ├── SIH_RD.ipynb
+│   ├── SIH_ER.ipynb
+│   └── ...
+├── SIA/
+│   └── SIA_PA.ipynb
+├── SINASC/
+│   └── SINASC_DN.ipynb
+├── Referencias/
+│   ├── REFERENCIAS_CBO_tb_ocupacao_Mapeamento_Funcao.ipynb
+│   ├── REFERENCIAS_CID10_Categorias_Mapeamento_Funcao.ipynb
+│   └── REFERENCIAS_SIGTAP_tb_procedimento_Mapeamento_Funcao.ipynb
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 🧩 Tabelas de Referência
+
+A pasta `Referencias/` contém notebooks com funções de mapeamento para:
+
+- **CBO** – Classificação Brasileira de Ocupações
+- **CID-10** – Classificação Internacional de Doenças
+- **SIGTAP** – Tabela de Procedimentos, Medicamentos e OPM do SUS
+
+Essas funções facilitam a interpretação dos códigos presentes nos bancos de dados principais.
+
+---
 
 ## 📁 Organização do repositório
 
