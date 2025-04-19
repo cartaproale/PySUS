@@ -6,7 +6,7 @@ Este diretório contém notebooks relacionados ao acesso e à exploração dos d
 
 ## Notebook principal
 
-- **`SIM_CID10_PR_2022_Exploracao.ipynb`**
+- **`SIM_CID10.ipynb`**
   - Baixa os dados do grupo `CID10` (causa básica de óbito) para o estado do Paraná no ano de 2022.
   - Realiza uma análise exploratória das causas de óbito com base nos códigos CID-10.
   - Gera um gráfico de barras com as 10 causas básicas mais frequentes.
