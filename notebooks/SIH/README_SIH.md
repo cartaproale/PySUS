@@ -7,12 +7,12 @@ Esta pasta contém notebooks atualizados para análise de dados do **SIH/SUS**, 
 
 | Tipo de dado | Descrição                              | Notebook                                |
 |--------------|----------------------------------------|-----------------------------------------|
-| RD           | Registros de Internações               | `SIH_RD_Parana_2023_Exploracao_Oficial.ipynb` |
-| SP           | Serviços Profissionais                 | `SIH_SP_Parana_2023_Exploracao.ipynb`         |
-| ER           | Emergência Referenciada                | `SIH_ER_Parana_2023_Exploracao.ipynb`         |
-| CM           | Cirurgias Ambulatoriais                | `SIH_CM_Brasil_2019_Exploracao.ipynb`         |
+| RD           | Registros de Internações               | `SIH_RD.ipynb` |
+| SP           | Serviços Profissionais                 | `SIH_SP.ipynb`         |
+| ER           | Emergência Referenciada                | `SIH_ER.ipynb`         |
+| CM           | Cirurgias Ambulatoriais                | `SIH_CM.ipynb`         |
 
-> ℹ️ O notebook `SIH_CM_Brasil_2019_Exploracao.ipynb` utiliza um recorte de 2 arquivos do ano de 2019 para evitar erros de timeout e garantir testagem funcional.
+> ℹ️ O notebook `SIH_CM.ipynb` utiliza um recorte de 2 arquivos do ano de 2019 para evitar erros de timeout e garantir testagem funcional.
 
 ## 🔧 Estrutura dos notebooks
 
