@@ -1,50 +1,33 @@
-# SIH - Sistema de Informações Hospitalares
 
-Este diretório contém notebooks relacionados ao acesso e à exploração dos dados do **SIH (Sistema de Informações Hospitalares)**, disponibilizados publicamente pelo DataSUS e acessados via biblioteca `pysus`, mantida pelo AlertaDengue.
+# SIH — Sistema de Informações Hospitalares (DATASUS)
 
----
+Esta pasta contém notebooks atualizados para análise de dados do **SIH/SUS**, utilizando a biblioteca `pysus` (AlertaDengue). Os notebooks foram testados e validados com dados reais no Google Colab.
 
-## Notebook principal
+## ✅ Notebooks validados
 
-- **`SIH_RD_PR_2023_Exploracao_Oficial.ipynb`**
-  - Baixa os dados do tipo `RD` (Registro de internações) para o estado do Paraná no mês de janeiro de 2023.
-  - Realiza uma análise exploratória dos diagnósticos principais (CID-10).
-  - Gera um gráfico de barras com os 10 diagnósticos de internação mais frequentes.
+| Tipo de dado | Descrição                              | Notebook                                |
+|--------------|----------------------------------------|-----------------------------------------|
+| RD           | Registros de Internações               | `SIH_RD_Parana_2023_Exploracao_Oficial.ipynb` |
+| SP           | Serviços Profissionais                 | `SIH_SP_Parana_2023_Exploracao.ipynb`         |
+| ER           | Emergência Referenciada                | `SIH_ER_Parana_2023_Exploracao.ipynb`         |
+| CM           | Cirurgias Ambulatoriais                | `SIH_CM_Brasil_2019_Exploracao.ipynb`         |
 
----
+> ℹ️ O notebook `SIH_CM_Brasil_2019_Exploracao.ipynb` utiliza um recorte de 2 arquivos do ano de 2019 para evitar erros de timeout e garantir testagem funcional.
 
-## Como utilizar
+## 🔧 Estrutura dos notebooks
 
-1. Acesse o notebook diretamente pelo GitHub ou abra no Google Colab.
-2. Certifique-se de executar a célula de instalação da biblioteca:
+Cada notebook segue a estrutura:
+- Instalação da biblioteca PySUS
+- Importação dos módulos necessários
+- Download dos dados diretamente dos servidores oficiais
+- Conversão dos dados para `pandas.DataFrame`
+- Mapeamento de colunas, tipos e exemplos de valores
 
-   ```python
-   !pip install git+https://github.com/AlertaDengue/PySUS.git --upgrade
-   ```
+## 🧪 Status da validação
 
-3. Execute as demais células passo a passo.
+- Apenas os notebooks listados acima foram validados com sucesso.
+- A instrução `.to_dataframe()` foi incluída após o `download(...)` para evitar erros comuns de tipo `ParquetSet`.
 
-> 💡 **Importante**: A biblioteca `pysus` do AlertaDengue requer conversão do resultado usando `.to_dataframe()` após o `download(...)` para acesso pleno aos dados.
+## 📦 Fonte
 
----
-
-## Tipo de produção utilizado
-
-- `RD`: Registros de internações hospitalares (Resumo de AIH)
-
----
-
-## Exemplo de uso
-
-```python
-from pysus.online_data.SIH import download
-
-df = download("PR", 2023, 1, "RD").to_dataframe()
-df['DIAG_PRINC'].value_counts().head(10)
-```
-
----
-
-## Autor
-
-Este material faz parte do projeto [cartaproale/PySUS](https://github.com/cartaproale/PySUS), mantido por **Alexandre Kraemer**, com o objetivo de tornar acessíveis as bases públicas de dados em saúde para pesquisadores, estudantes e gestores.
+Biblioteca oficial utilizada: [`pysus`](https://github.com/AlertaDengue/PySUS)
