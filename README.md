@@ -103,8 +103,8 @@ Este repositório foi organizado por **[@cartaproale](https://github.com/cartapr
 
 - FTP do DataSUS: `ftp.datasus.gov.br`
 - Repositório PySUS: [github.com/AlertaDengue/PySUS](https://github.com/AlertaDengue/PySUS)
-- Tabelas auxiliares: CBO, CID-10, SIGTAP (em construção futura)
-- [DATASUS – Ministério da Saúde](http://datasus.saude.gov.br/)
-- [CID-10 – OMS](https://www.who.int/classifications/classification-of-diseases)
-- [CBO – Ministério do Trabalho](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/emprego/cbo)
-- [SIGTAP – DATASUS](http://sigtap.datasus.gov.br/)
+- Tabelas auxiliares: CBO, CID-10, SIGTAP
+- DATASUS – Ministério da Saúde: http://datasus.saude.gov.br/
+- CID-10 – OMS: https://www.who.int/classifications/classification-of-diseases
+- CBO – Ministério do Trabalho:https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/emprego/cbo
+- SIGTAP – DATASUS:http://sigtap.datasus.gov.br/
