@@ -27,7 +27,7 @@ Os códigos são compatíveis com o **Google Colab** e visam facilitar o trabalh
 
 Cada subpasta contém:
 
-- Notebooks nomeados no padrão `SISTEMA_TABELA_ESTADO_ANO_Exploracao.ipynb`
+- Notebooks nomeados no padrão `SISTEMA_TABELA.ipynb`
 - Um arquivo `README.md` explicando os notebooks e tabelas disponíveis
 - Códigos limpos, legíveis e comentados
 
@@ -43,12 +43,9 @@ Cada subpasta contém:
 ```
 
 - 🔁 **IMPORTANTE:** Após executar o comando acima, você deve **reiniciar o ambiente do Google Colab**:
-  - Menu: `Ambiente de execução > Reiniciar ambiente`
+  - Menu: `Ambiente de execução > Reiniciar ambiente` ou
+    Menu: `Runtime > Restart runtime`
   - Ou pressione: `Ctrl + M` e depois `.` (ponto)
-
-> **ENGLISH:** After running the installation cell above, you must **restart the Google Colab runtime** to avoid compatibility errors (especially with NumPy):
-> - Menu: `Runtime > Restart runtime`
-> - Or press: `Ctrl + M` then `.` (dot)
 
 ---
 
