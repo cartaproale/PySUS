@@ -5,12 +5,12 @@ Esta pasta contém notebooks atualizados para análise de dados do **SIH/SUS**, 
 
 ## ✅ Notebooks validados
 
-| Tipo de dado | Descrição                              | Notebook                                |
-|--------------|----------------------------------------|-----------------------------------------|
+| Tipo de dado | Descrição                              | Notebook       |
+|--------------|----------------------------------------|----------------|
 | RD           | Registros de Internações               | `SIH_RD.ipynb` |
-| SP           | Serviços Profissionais                 | `SIH_SP.ipynb`         |
-| ER           | Emergência Referenciada                | `SIH_ER.ipynb`         |
-| CM           | Cirurgias Ambulatoriais                | `SIH_CM.ipynb`         |
+| SP           | Serviços Profissionais                 | `SIH_SP.ipynb` |
+| ER           | Emergência Referenciada                | `SIH_ER.ipynb` |
+| CM           | Cirurgias Ambulatoriais                | `SIH_CM.ipynb` |
 
 > ℹ️ O notebook `SIH_CM.ipynb` utiliza um recorte de 2 arquivos do ano de 2019 para evitar erros de timeout e garantir testagem funcional.
 
