@@ -29,26 +29,79 @@ Cada sistema possui uma subpasta dedicada com notebooks de exploração, limpeza
 
 ```
 cartaproale/PySUS/
-├── CNES/
-│   ├── CNES_ST.ipynb
-│   ├── CNES_PF.ipynb
-│   └── ...
-├── SIM/
-│   └── SIM_CID10.ipynb
-├── SIH/
-│   ├── SIH_RD.ipynb
-│   ├── SIH_ER.ipynb
-│   └── ...
-├── SIA/
-│   └── SIA_PA.ipynb
-├── SINASC/
-│   └── SINASC_DN.ipynb
-├── Referencias/
-│   ├── REFERENCIAS_CBO_tb_ocupacao_Mapeamento_Funcao.ipynb
-│   ├── REFERENCIAS_CID10_Categorias_Mapeamento_Funcao.ipynb
-│   └── REFERENCIAS_SIGTAP_tb_procedimento_Mapeamento_Funcao.ipynb
+├── LICENSE.md
 ├── README.md
-└── LICENSE
+├── Exemplos/                       # Notebooks principais e ilustrativos
+│   ├── CNES/
+│   │   ├── Leitos_CNES_LT_Mapeamento_Municipios.ipynb
+│   │   ├── Leitos_Por_Cidade_Top_10_Grafico.ipynb
+│   │   ├── Total_Leitos_Parana_SUS_e_nao_SUS.ipynb
+│   │   └── Total_Leitos_Parana.ipynb
+│   ├── Mapeamento/
+│   │   └── Mapeamento_IBGE_Cidades.ipynb
+│   ├── SIM/
+│   │   ├── SIM_CID10_Brasil_Exemplos_Exploracao.ipynb
+│   │   ├── SIM_CID10_Estado_Exemplos_Exploracao.ipynb
+│   │   └── SIM_CID10_Municipio_Exemplos_Exploracao.ipynb
+│   └── _Iniciar/
+│       ├── Iniciar_Instalacao_e_Testes_Iniciais_PySUS.ipynb
+│       └── Iniciar_Teste_Instalacao_Importacao_PySUS.ipynb
+│
+├── Referencias/                    # Mapeamentos e tabelas de apoio
+│   ├── README_referencias.md
+│   ├── REFERENCIAS_CBO2002_Ocupacao.ipynb
+│   ├── REFERENCIAS_CBO_tb_ocupacao_Mapeamento_Funcao.ipynb
+│   ├── REFERENCIAS_CID10_Categorias.ipynb
+│   ├── REFERENCIAS_CID10_Categorias_Mapeamento_Funcao.ipynb
+│   ├── REFERENCIAS_SIGTAP_tb_procedimento.ipynb
+│   └── REFERENCIAS_SIGTAP_tb_procedimento_Mapeamento_Funcao.ipynb
+│
+├── notebooks/                      # Notebooks por base e testes
+│   ├── tabela_cbo.ipynb
+│   ├── tabela_cid10.ipynb
+│   ├── tabela_sigtap.ipynb
+│   ├── Tabela_municipios.csv
+│   ├── CNES/
+│   │   ├── CNES_DC.ipynb
+│   │   ├── CNES_EP.ipynb
+│   │   ├── CNES_EQ.ipynb
+│   │   ├── CNES_HB.ipynb
+│   │   ├── CNES_IN.ipynb
+│   │   ├── CNES_LT.ipynb
+│   │   ├── CNES_PF.ipynb
+│   │   ├── CNES_SR.ipynb
+│   │   ├── CNES_ST.ipynb
+│   │   └── README_CNES.md
+│   ├── SIA/
+│   │   ├── SIA_PA.ipynb
+│   │   └── README_SIA.md
+│   ├── SIH/
+│   │   ├── SIH_CM.ipynb
+│   │   ├── SIH_ER.ipynb
+│   │   ├── SIH_RD.ipynb
+│   │   ├── SIH_SP.ipynb
+│   │   └── README_SIH.md
+│   ├── SIM/
+│   │   ├── SIM_CID10.ipynb
+│   │   └── README_SIM.md
+│   └── SINASC/
+│       ├── SINASC_DN.ipynb
+│       └── README_SINASC.md
+│
+├── tabelas/                        # Arquivos de dados auxiliares (.csv, .txt)
+│   ├── cbo2002.csv
+│   ├── cid10.csv
+│   ├── cnes_eq.csv
+│   ├── cnes_pf.csv
+│   ├── cnes_st.csv
+│   ├── municipios.csv
+│   ├── sia_pa.csv
+│   ├── sigtap_procedimentos.csv
+│   ├── sih_rd.csv
+│   ├── sim_cid10.csv
+│   ├── sinasc_dn.csv
+│   └── tb_procedimento.txt
+
 ```
 
 ---
