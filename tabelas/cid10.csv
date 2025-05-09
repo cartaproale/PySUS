@@ -1,2 +1,0 @@
-TABELA,DESCRICAO,FONTE,CAMPOS_IMPORTANTES,FORMATO,OBSERVACOES
-CID-10 (Categorias),Classificação Internacional de Doenças – 10ª Revisão (categorias de 3 caracteres),https://github.com/cartaproale/CID10/raw/refs/heads/main/CID-10-CATEGORIAS.CSV,"CAT (código), DESCRICAO (nome da condição)","CSV, separado por ponto e vírgula (;), codificação latin1","Utilizar CAT como chave para mapeamento com bases como SIM, SIH, SIA, SINASC."
