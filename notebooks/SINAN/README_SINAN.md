@@ -68,5 +68,5 @@ O dicionário completo das colunas deve ser consultado na [documentação oficia
 O notebook faz parte do repositório [PySUS - cartaproale](https://github.com/cartaproale/PySUS) e deve ser colocado dentro da subpasta:
 
 ```
-/SINAN/SINAN_AG_Parana_2023_Exploracao.ipynb
+/SINAN/SINAN.ipynb
 ```
