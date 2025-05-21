@@ -1,0 +1,34 @@
+coluna,tipo,descricao
+NU_NOTIFIC,varchar2(7),Número da Notificação
+TP_NOT,varchar2(1),"Tipo de Notificação: 1 – Negativa, 2 – Individual, 3 – Surto, 4 – Agregado"
+ID_AGRAVO,varchar2(4),Código do agravo segundo CID-10
+CS_SUSPEIT,varchar2(1),"Especifica suspeição do agravo (doenças exantemáticas, meningite, AIDS)"
+DT_NOTIFIC,date,Data de preenchimento da ficha de notificação
+SEM_NOT,varchar2(6),Semana epidemiológica da notificação
+NU_ANO,varchar2(4),Ano da notificação
+SG_UF_NOT,varchar2(2),Sigla da UF onde foi realizada a notificação
+ID_MUNICIP,varchar2(6),Código do município onde foi realizada a notificação
+ID_UNIDADE,"number(8,0)",Código da unidade de saúde notificadora
+DT_SIN_PRI,date,Data dos primeiros sintomas ou diagnóstico
+NM_PACIENT,varchar2(70),Nome completo do paciente
+DT_NASC,date,Data de nascimento do paciente
+NU_IDADE_N,number(4),"Idade codificada (1-hora, 2-dia, 3-mês, 4-ano)"
+CS_SEXO,varchar2(1),"Sexo: M - masculino, F - feminino, I - ignorado"
+CS_GESTANT,varchar2(1),Gestante: 1 - 1º Trimestre até 9 - Ignorado
+CS_RACA,varchar2(1),"Raça/Cor: 1 - Branca até 5 - Indígena, 9 - Ignorado"
+CS_ESCOL_N,varchar2(2),Escolaridade: de 1 - 1ª a 4ª série até 10 - Não se aplica
+ID_CNS_SUS,varchar2(15),Número do cartão SUS do paciente
+NM_MAE_PAC,varchar2(60),Nome completo da mãe do paciente
+SG_UF,varchar2(2),Sigla da UF de residência
+ID_MN_RESI,varchar2(6),Código do município de residência
+ID_BAIRRO,number(8),Código do bairro de residência
+NM_BAIRRO,varchar2(60),Nome do bairro de residência
+ID_LOGRADO,number(8),Código do logradouro
+NM_LOGRADO,varchar2(60),Nome do logradouro
+NU_NUMERO,varchar2(6),Número do logradouro
+NM_COMPLEM,varchar2(30),Complemento do logradouro
+NU_CEP,varchar2(8),CEP de residência
+NU_DDD_TEL,varchar2(2),Código DDD
+NU_TELEFON,varchar2(9),Telefone de residência
+CS_ZONA,varchar2(1),"Zona de residência: 1 - urbana, 2 - rural, etc."
+ID_PAIS,varchar(4),Código do país de residência
