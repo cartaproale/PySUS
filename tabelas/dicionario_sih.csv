@@ -1,0 +1,33 @@
+coluna,tipo,descricao
+UF_ZI,int8,Município gestor
+ANO_CMPT,int8,Ano de processamento da AIH
+MES_CMPT,text,Mês de processamento da AIH
+ESPEC,text,Especialidade do leito
+CGC_HOSP,text,CNPJ do estabelecimento
+N_AIH,int8,Número da AIH
+CEP,text,CEP do paciente
+MUNIC_RES,int8,Município de residência do paciente
+NASC,int8,Data de nascimento do paciente
+SEXO,int8,Sexo do paciente
+UTI_MES_TO,int8,Quantidade de dias de UTI no mês
+MARCA_UTI,text,Tipo de UTI utilizada pelo paciente
+UTI_INT_TO,int8,Quantidade de diárias em unidade intermediária
+DIAR_ACOM,int8,Quantidade de diárias de acompanhante
+QT_DIARIAS,int8,Quantidade de diárias
+PROC_SOLIC,text,Procedimento solicitado
+PROC_REA,text,Procedimento realizado
+VAL_SH,float8,Valor de serviços hospitalares
+VAL_SP,float8,Valor de serviços profissionais
+VAL_TOT,float8,Valor total da AIH
+VAL_UTI,float8,Valor de UTI
+DT_INTER,int8,Data de internação
+DT_SAIDA,int8,Data de saída
+DIAG_PRINC,text,Código do diagnóstico principal (CID10)
+DIAG_SECUN,text,Código do diagnóstico secundário (CID10)
+COBRANCA,int8,Motivo de saída/permanência
+NATUREZA,int8,Natureza jurídica do hospital
+GESTAO,int8,Tipo de gestão do hospital
+MUNIC_MOV,int8,Município do estabelecimento
+IDADE,int8,Idade
+DIAS_PERM,int8,Dias de permanência
+MORTE,int8,Indica óbito
