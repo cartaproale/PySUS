@@ -1,0 +1,32 @@
+coluna,tipo,tamanho,descricao
+NUMERODN,caracter,8,Número da DN
+NUMERODV,caracter,1,Número do Dígito Verificador
+PREFIXODN,caracter,2,Prefixo da DN
+CODCART,caracter,8,Código do cartório
+CODESTCART,caracter,2,Código da UF do cartório
+CODMUNCART,caracter,7,Código do município do cartório
+NUMREGCART,caracter,10,Número do registro civil (cartório)
+DTREGCART,caracter,8,Data do registro no cartório
+CODESTAB,caracter,7,Código do estabelecimento de saúde onde ocorreu o nascimento
+COMUNESTAB,caracter,7,Código do município do estabelecimento de saúde
+ENDNASC,caracter,30,Endereço do local de nascimento
+CODESTOCOR,caracter,2,Código da UF de ocorrência
+CODMUNNASC,caracter,7,Código do município de nascimento
+BAINASC,caracter,30,Bairro de nascimento
+CODBAINASC,caracter,8,Código do bairro de nascimento
+LOCNASC,caracter,1,Local de nascimento: 1–Hospital; 2–Outros estabs de saúde; 3–Domicílio; 4–Outros
+CODENDNASC,caracter,12,Código de endereço de nascimento
+CEPNASC,caracter,9,CEP do endereço de nascimento
+NOMEMAE,caracter,70,Nome da mãe
+NUMSUSMAE,caracter,15,Número do cartão SUS da mãe
+IDADEMAE,caracter,2,Idade da mãe
+ESTCIVMAE,caracter,1,Estado civil da mãe
+ESCMAE,caracter,1,Escolaridade da mãe em anos de estudo
+QTDFILVIVO,caracter,2,Número de filhos vivos
+QTDFILMORT,caracter,2,Número de perdas fetais e abortos
+GESTACAO,caracter,1,Semanas de gestação
+GRAVIDEZ,caracter,1,Tipo de gravidez
+PARTO,caracter,1,Tipo de parto
+CONSULTAS,caracter,1,Número de consultas de pré-natal
+DTNASC,caracter,8,Data de nascimento: ddmmaaaa
+SEXO,caracter,1,Sexo: M/F/I
