@@ -1,0 +1,32 @@
+coluna,tipo,tamanho,descricao
+NUMERODO,caracter,8,Número da DO
+NUMERODV,caracter,1,Número do Dígito Verificador
+CODESTCART,caracter,7,Código da UF do cartório
+CODMUNCART,caracter,7,Código do município do cartório
+CODCART,caracter,8,Código do cartório
+NUMREGCART,caracter,8,Número do registro do cartório
+DTREGCART,caracter,8,Data do registro do cartório: dd mm aaaa
+TIPOBITO,caracter,1,Tipo do óbito: 1 – fetal; 2 – não fetal
+DTOBITO,caracter,8,Data do óbito: dd mm aaaa
+HORAOBITO,caracter,5,Horário do óbito
+NUMSUS,caracter,15,Número do cartão SUS
+NATURAL,caracter,3,Naturalidade
+NOME,caracter,50,Nome do falecido
+NOMEPAI,caracter,45,Nome do pai do falecido
+NOMEMAE,caracter,45,Nome da mãe do falecido
+DTNASC,caracter,8,Data do nascimento: dd mm aaaa
+IDADE,caracter,3,Idade codificada conforme subcampos
+SEXO,caracter,1,Sexo: M – masculino; F – feminino; I – ignorado
+RACACOR,caracter,1,Raça: 1 – Branca; 2 – Preta; 3 – Amarela; 4 – Parda; 5 – Indígena
+ESTCIV,caracter,1,Estado civil
+ESC,caracter,1,Escolaridade em anos
+OCUP,caracter,6,Ocupação habitual e ramo de atividade
+CODESTRES,caracter,7,Código da UF de residência
+CODMUNRES,caracter,7,Código do município de residência
+BAIRES,caracter,30,Bairro de residência
+CODBAIRES,caracter,8,Código do bairro de residência
+LOCOCOR,caracter,1,Local de ocorrência do óbito
+CODESTAB,caracter,8,Código de estabelecimento
+CODMUNOCOR,caracter,8,Código do município de ocorrência
+IDADEMAE,caracter,2,Idade da mãe
+ESCMAE,caracter,1,Escolaridade da mãe
