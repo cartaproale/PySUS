@@ -1,6 +1,8 @@
 
 # 🧠 PySUS – Acesso estruturado aos dados públicos do SUS
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Este repositório contém notebooks interativos e validados para acesso direto e exploração de dados do **DataSUS**, por meio da biblioteca [`pysus`](https://github.com/AlertaDengue/PySUS) mantida pelo [AlertaDengue](https://info.dengue.mat.br/).
 
 Os códigos são compatíveis com o **Google Colab** e visam facilitar o trabalho de pesquisadores, profissionais da saúde, estudantes e desenvolvedores **sem necessidade de conhecimento prévio em programação**.
