@@ -19,3 +19,33 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
 THE SOFTWARE.
+
+## 📄 Licenciamento e Compatibilidade
+
+Este repositório, **CartaProAle**, é distribuído sob a **Licença MIT**, uma licença permissiva que permite uso, modificação e redistribuição, inclusive em software proprietário, desde que o aviso de copyright e esta licença sejam incluídos.
+
+Contudo, este projeto **utiliza como dependência** a biblioteca **PySUS Oficial**, mantida pelo **AlertaDengue**, que é licenciada sob a **GNU General Public License v3.0 (GPL-3.0)**.
+
+➡️ Importante esclarecer que:
+
+- Este repositório **não incorpora** nem **modifica** diretamente o código-fonte da biblioteca **PySUS Oficial**.
+- Apenas a **utiliza como dependência externa** para execução de exemplos e fluxos analíticos.
+- Portanto, mantém-se sob a **Licença MIT**.
+
+⚠️ Caso algum contribuinte venha a **incorporar ou modificar diretamente o código-fonte** da **PySUS Oficial** neste repositório, tal parte específica **deverá obrigatoriamente ser licenciada sob os termos da GPL-3.0**.
+
+---
+
+## ✅ Resumo de licenças envolvidas:
+
+| Componente                               | Licença                       |
+| ---------------------------------------- | ----------------------------- |
+| Código próprio do repositório (CartaProAle) | MIT License                   |
+| Biblioteca PySUS Oficial (AlertaDengue)  | GNU GPL-3.0                   |
+
+---
+
+## ✅ Aviso legal
+
+Este projeto respeita os termos e as condições de ambas as licenças e recomenda que quaisquer distribuições ou derivações também o façam.
+
